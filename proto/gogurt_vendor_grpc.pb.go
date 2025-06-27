@@ -19,7 +19,7 @@ import (
 const _ = grpc.SupportPackageIsVersion9
 
 const (
-	GogurtVendor_GetGogurt_FullMethodName = "/gogurt.GogurtVendor/GetGogurt"
+	GogurtVendor_GetGogurt_FullMethodName = "/proto.GogurtVendor/GetGogurt"
 )
 
 // GogurtVendorClient is the client API for GogurtVendor service.
@@ -108,7 +108,7 @@ func _GogurtVendor_GetGogurt_Handler(srv interface{}, ctx context.Context, dec f
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var GogurtVendor_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "gogurt.GogurtVendor",
+	ServiceName: "proto.GogurtVendor",
 	HandlerType: (*GogurtVendorServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{

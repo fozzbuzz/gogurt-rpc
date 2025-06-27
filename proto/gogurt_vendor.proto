@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-option go_package = "github.com/gogurt-rpc/proto";
+option go_package = "github.com/fozzbuzz/gogurt-rpc/proto";
 
-package gogurt;
+package proto;
 
 service GogurtVendor {
   rpc GetGogurt(GetGogurtRequest) returns (Gogurt) {}

@@ -129,15 +129,15 @@ var File_proto_gogurt_vendor_proto protoreflect.FileDescriptor
 
 const file_proto_gogurt_vendor_proto_rawDesc = "" +
 	"\n" +
-	"\x19proto/gogurt_vendor.proto\x12\x06gogurt\"\x12\n" +
+	"\x19proto/gogurt_vendor.proto\x12\x05proto\"\x12\n" +
 	"\x10GetGogurtRequest\"f\n" +
 	"\x06Gogurt\x12\x12\n" +
 	"\x04size\x18\x01 \x01(\x05R\x04size\x12\x16\n" +
 	"\x06flavor\x18\x02 \x01(\tR\x06flavor\x12\x1c\n" +
 	"\tremaining\x18\x03 \x01(\x05R\tremaining\x12\x12\n" +
-	"\x04open\x18\x04 \x01(\bR\x04open2G\n" +
-	"\fGogurtVendor\x127\n" +
-	"\tGetGogurt\x12\x18.gogurt.GetGogurtRequest\x1a\x0e.gogurt.Gogurt\"\x00B\x1dZ\x1bgithub.com/gogurt-rpc/protob\x06proto3"
+	"\x04open\x18\x04 \x01(\bR\x04open2E\n" +
+	"\fGogurtVendor\x125\n" +
+	"\tGetGogurt\x12\x17.proto.GetGogurtRequest\x1a\r.proto.Gogurt\"\x00B&Z$github.com/fozzbuzz/gogurt-rpc/protob\x06proto3"
 
 var (
 	file_proto_gogurt_vendor_proto_rawDescOnce sync.Once
@@ -153,12 +153,12 @@ func file_proto_gogurt_vendor_proto_rawDescGZIP() []byte {
 
 var file_proto_gogurt_vendor_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_proto_gogurt_vendor_proto_goTypes = []any{
-	(*GetGogurtRequest)(nil), // 0: gogurt.GetGogurtRequest
-	(*Gogurt)(nil),           // 1: gogurt.Gogurt
+	(*GetGogurtRequest)(nil), // 0: proto.GetGogurtRequest
+	(*Gogurt)(nil),           // 1: proto.Gogurt
 }
 var file_proto_gogurt_vendor_proto_depIdxs = []int32{
-	0, // 0: gogurt.GogurtVendor.GetGogurt:input_type -> gogurt.GetGogurtRequest
-	1, // 1: gogurt.GogurtVendor.GetGogurt:output_type -> gogurt.Gogurt
+	0, // 0: proto.GogurtVendor.GetGogurt:input_type -> proto.GetGogurtRequest
+	1, // 1: proto.GogurtVendor.GetGogurt:output_type -> proto.Gogurt
 	1, // [1:2] is the sub-list for method output_type
 	0, // [0:1] is the sub-list for method input_type
 	0, // [0:0] is the sub-list for extension type_name
